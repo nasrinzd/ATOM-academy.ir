@@ -89,7 +89,7 @@
 <body>
     <div class="container">
         <img src="ggg1.jpg" alt="Logo" class="logo" />
-        <div class="slogan">ANY DOG . ANY AGE . ANY PROBLEM</div>
+       
 
         <div class="background-block">
             <img src="IMG_2862.JPG" alt="Dog Background" />
