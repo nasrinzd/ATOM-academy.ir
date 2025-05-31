@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="fa">
 <head>
     <meta charset="UTF-8" />
@@ -7,8 +6,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #fff;
-            color: #222;
+            background: #000;
+            color: #fff;
             text-align: center;
             margin: 0;
             padding: 0;
@@ -26,24 +25,32 @@
             display: block;
         }
 
-        h1 {
-            margin: 10px 0;
-            color: #000;
-        }
-
         .slogan {
-            color: #d00;
+            color: #ff5555;
             font-weight: bold;
             margin-bottom: 20px;
             font-size: 18px;
         }
 
-        .dog-image {
-            width: 90%;
-            max-width: 500px;
+        .background-block {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .background-block img {
+            width: 100%;
+            max-width: 600px;
             border-radius: 16px;
-            box-shadow: 0 0 12px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
+            opacity: 0.3;
+            filter: blur(2px);
+        }
+
+        .button-group {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
         }
 
         .button {
@@ -69,24 +76,29 @@
         .contact {
             margin-top: 30px;
             font-size: 14px;
-            color: #333;
+            color: #ccc;
         }
 
-            .contact a {
-                color: #000;
-                text-decoration: none;
-                font-weight: bold;
-            }
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <img src="ggg1.jpg" alt="Logo" class="logo" />
-        <h1>ATOM ACADEMY</h1>
         <div class="slogan">ANY DOG . ANY AGE . ANY PROBLEM</div>
-        <img src="IMG_2862.JPG" alt="Dog" class="dog-image" />
-        <a href="https://chat.whatsapp.com/BaXzEgzGxdq6eHPJDyAYzm" class="button whatsapp" target="_blank">Join WhatsApp Group</a>
-        <a href="https://t.me/+UdrKHSN9kFMzMDQ0" class="button telegram" target="_blank">Join Telegram Group</a>
+
+        <div class="background-block">
+            <img src="IMG_2862.JPG" alt="Dog Background" />
+            <div class="button-group">
+                <a href="https://chat.whatsapp.com/BaXzEgzGxdq6eHPJDyAYzm" class="button whatsapp" target="_blank">Join WhatsApp Group</a>
+                <a href="https://t.me/+UdrKHSN9kFMzMDQ0" class="button telegram" target="_blank">Join Telegram Group</a>
+            </div>
+        </div>
+
         <div class="contact">
             <p>📞 0915 566 6282</p>
             <p>📷 <a href="https://instagram.com/Atom.academyy" target="_blank">@Atom.academyy</a></p>
